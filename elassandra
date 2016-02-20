@@ -3,7 +3,7 @@
 # 2016
 
 if [ $(whoami) != "root" ]; then
-    echo "Cassandra bash script works only with root user"
+    echo "Elassandra bash script works only with root user"
     exit 1
 fi
 
